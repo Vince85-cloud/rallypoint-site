@@ -43,6 +43,6 @@ Before using this site for Garmin or other enterprise-style applications:
 
 The current site still uses:
 
-- `rallypointfitnessapp@gmail.com`
+- `contact@rallypointfitness.fit`
 
 Replace that in both `index.html` and `privacy.html` with a domain-based address before reapplying to Garmin.
