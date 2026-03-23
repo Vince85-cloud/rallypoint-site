@@ -1,10 +1,22 @@
 # RallyPoint Site
 
-This is a minimal static website for `RallyPoint Fitness` with:
+This is the public static website for `RallyPoint Fitness`.
 
-- `index.html` for the public product/company page
-- `privacy.html` for the privacy policy Garmin asked for
-- `styles.css` shared by both pages
+Files:
+- `index.html` for the public product/company homepage
+- `privacy.html` for the public privacy policy
+- `support.html` for public support/contact visibility
+- `terms.html` for public terms of use
+- `styles.css` shared styling for both pages
+
+## Recommended Next Steps
+
+Before using this site for Garmin or other enterprise-style applications:
+
+1. publish it to a real domain
+2. replace the Gmail contact with a domain email
+3. keep the privacy policy linked directly from the homepage
+4. make sure the privacy page is publicly accessible without login
 
 ## Fast Publish Options
 
@@ -12,23 +24,25 @@ This is a minimal static website for `RallyPoint Fitness` with:
 
 1. Create a new GitHub repo, for example `rallypoint-site`
 2. Upload these files to the repo root
-3. In GitHub repo settings, enable `Pages`
+3. In repo settings, enable `Pages`
 4. Publish from the main branch root
+5. Attach a custom domain once DNS is ready
 
 ### Netlify or Vercel
 
 1. Create a new site from a Git repo or drag-and-drop this folder
 2. Publish the folder as a static site
+3. Attach your custom domain in the hosting dashboard
 
-## URLs You Can Use For Garmin
+## URLs To Provide In Applications
 
-- Website URL: your published `index.html`
+- Website URL: your published homepage
 - Privacy Policy URL: your published `privacy.html`
 
-## Contact Email
+## Current Contact Placeholder
 
-Current contact email in the site:
+The current site still uses:
 
 - `rallypointfitnessapp@gmail.com`
 
-Change that in `index.html` and `privacy.html` if you want a different contact address.
+Replace that in both `index.html` and `privacy.html` with a domain-based address before reapplying to Garmin.
